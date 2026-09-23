@@ -1,8 +1,0 @@
-|SELECTOR|
-universal(*)
-tag 
-class(.)
-id(#)
-
-|PROPERTIES|
-background-color
