@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    background-color: yellow;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+
+  
+}
+#menu-items 
+{
+   display: flex;
+    gap: 15px;
+    align-items: center;
+   justify-content: end;
+  
+}
+#menu-items button
+{
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+button:hover
+{
+    cursor: pointer;
+}
+#ask-me{
+    padding: 5px 10px;
+    background-color:green;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+#box{
+    width: 1900px;
+    height: 350px;
+    background-color: darkred;
+    position: relative;
+}
+#box-button
+{
+    background-color: black ;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

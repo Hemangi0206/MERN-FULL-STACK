@@ -1,0 +1,19 @@
+#grid-outer{
+    padding: 40px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 70px;
+}
+.gd
+{
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: pink;
+    color: azure;
+    font-size: xx-large;
+    font-weight:900 ;
+}

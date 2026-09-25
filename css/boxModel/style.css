@@ -45,24 +45,6 @@ position: relative;
 overflow: hidden;
 }
 
-
-.card::before {
-content: "";
-width: 120px;
-height: 120px;
-background: #667eea;
-border-radius: 50%;
-position: absolute;
-top: -50px;
-right: -50px;
-transition: 0.4s;
-}
-
-.card:hover::before {
-width: 180px;
-height: 180px;
-}
-
 .card:hover {
 transform: translateY(-15px);
 box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);

@@ -1,6 +1,0 @@
-display
-block
-inline
-inline-block
-flex
-grid
