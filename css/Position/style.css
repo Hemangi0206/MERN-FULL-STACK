@@ -60,3 +60,30 @@ button:hover
     bottom: 20px;
     right: 20px;
 }
+#section1{
+    display: flex;
+    gap: 20px;
+}
+#ocean
+{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+img{
+   height: fit-content;
+   width: fit-content;
+}
+#read-more,
+#learn-more
+{
+     padding: 5px 10px;
+    background-color:green;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#read-more{
+    position: absolute;
+
+
+}

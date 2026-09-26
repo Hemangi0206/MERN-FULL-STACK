@@ -1,0 +1,186 @@
+ * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 15px 5px;
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            color: #222;
+        }
+
+        #main {
+            border: 1px solid #333;
+            padding: 8px 10px;
+            min-height: 630px;
+        }
+
+        .title {
+            text-align: center;
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+            font-size: 11px;
+            margin-bottom: 8px;
+        }
+
+        fieldset {
+            border: 1px solid #c8c8c8;
+            margin: 0 0 5px 0;
+            padding: 7px 8px 8px 8px;
+        }
+
+        legend {
+            padding: 0 2px;
+            font-size: 9px;
+            color: #444;
+        }
+
+        
+
+        .personal-grid {
+            display: grid;
+            grid-template-columns: 155px 245px 155px 245px;
+            grid-auto-rows: 26px;
+            align-items: center;
+        }
+
+        .personal-grid label {
+            font-weight: normal;
+        }
+
+        .input-small {
+            width: 78px;
+            height: 16px;
+        }
+
+        .input-medium {
+            width: 90px;
+            height: 16px;
+        }
+
+        select {
+            height: 16px;
+            font-size: 9px;
+            padding: 0 2px;
+        }
+
+        .select-small {
+            width: 43px;
+        }
+
+        .select-medium {
+            width: 60px;
+        }
+
+        input {
+            font-size: 9px;
+            height: 16px;
+        }
+
+        input[type="radio"] {
+            width: 10px;
+            height: 10px;
+            vertical-align: middle;
+            margin: 0 2px 0 0;
+        }
+
+        input[type="date"] {
+            width: 58px;
+        }
+
+        .radio-group {
+            white-space: nowrap;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 160px 245px 155px 245px;
+            grid-auto-rows: 26px;
+            align-items: center;
+        }
+
+        .contact-input {
+            width: 78px;
+            height: 16px;
+        }
+
+        .state {
+            width: 100px;
+        }
+
+
+        .qualification-grid {
+            display: grid;
+            grid-template-columns: 50px 100px 135px 135px 135px 135px 100px;
+            grid-auto-rows: 26px;
+            align-items: center;
+        }
+
+        .qualification-grid .heading {
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+            font-size: 9px;
+        }
+
+        .qualification-grid .number {
+            padding-left: 5px;
+        }
+
+        .qualification-grid select {
+            width: 55px;
+        }
+
+        .qualification-grid input[type="text"] {
+            width: 78px;
+        }
+
+        .qualification-grid input[type="number"] {
+            width: 78px;
+        }
+
+        .language-grid {
+            display: grid;
+            grid-template-columns: 245px 205px 205px 205px;
+            grid-auto-rows: 18px;
+            align-items: center;
+        }
+
+        .language-heading {
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+            font-size: 9px;
+        }
+
+        .language-grid input[type="checkbox"] {
+            width: 10px;
+            height: 10px;
+            margin: 0;
+        }
+
+        .identification-grid {
+            display: grid;
+            grid-template-columns: 90px 180px 110px 180px;
+            grid-auto-rows: 22px;
+            align-items: center;
+        }
+
+        .identification-grid input[type="text"] {
+            width: 100px;
+        }
+
+        input[type="file"] {
+            width: 110px;
+            height: 18px;
+            font-size: 8px;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        button {
+            font-size: 8px;
+            height: 14px;
+            padding: 0 5px;
+            margin: 0 2px;
+        }
