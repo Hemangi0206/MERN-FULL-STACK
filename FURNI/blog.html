@@ -1,193 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Furni</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog | FURNI</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-<header class="site-header">
-    <div class="nav-container">
-        <a href="index.html" class="logo">Furni<span>.</span></a>
-
-        <input type="checkbox" id="nav-toggle">
-
-        <nav class="main-nav">
-            <a href="index.html">Home</a>
-            <a href="shop.html">Shop</a>
-            <a href="about.html">About us</a>
-            <a href="services.html">Services</a>
-            <a href="blog.html" class="active">Blog</a>
-            <a href="contact.html">Contact us</a>
-        </nav>
-
-        <div class="header-icons">
-            <a href="about.html"><i class="fa-regular fa-user"></i></a>
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
-
-        <label for="nav-toggle" class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-    </div>
-</header>
-
-<section class="inner-hero">
-    <div class="inner-hero-content">
-        <h1>Blog</h1>
-    </div>
+<nav class="navbar py-3">
+<div class="container">
+<a class="logo" href="index.html"><i class="fa-solid fa-couch"></i>FURNI</a>
+<div class="d-flex align-items-center flex-wrap">
+<a class="nav-link " href="index.html">Home</a>
+<a class="nav-link " href="shop.html">Shop</a>
+<a class="nav-link " href="about.html">About</a>
+<a class="nav-link " href="services.html">Services</a>
+<a class="nav-link active" href="blog.html">Blog</a>
+<a class="nav-link " href="contact.html">Contact</a>
+<div class="nav-icons">
+<a href="shop.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+<a href="cart.html"><i class="fa-regular fa-heart"></i></a>
+<a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+</div>
+</div>
+</div>
+</nav>
+<section class="page-head"><div class="container"><h1>Our Blog</h1><p>Ideas for creating a home you enjoy every day.</p></div></section><section class="section"><div class="container"><div class="row g-4"><div class="col-md-4"><article class="blog-card"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt=""><div class="blog-body"><small>HOME DESIGN</small><h3 class="mt-2">5 ways to make a room feel calmer</h3><p>Small changes can make a big difference to the feel of your home.</p><a href="#" style="color:var(--green);font-weight:700">Read article →</a></div></article></div><div class="col-md-4"><article class="blog-card"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt=""><div class="blog-body"><small>FURNITURE</small><h3 class="mt-2">How to choose the right sofa</h3><p>Think about size, comfort, fabric and how you use your space.</p><a href="#" style="color:var(--green);font-weight:700">Read article →</a></div></article></div><div class="col-md-4"><article class="blog-card"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt=""><div class="blog-body"><small>STYLE</small><h3 class="mt-2">A simple guide to warm interiors</h3><p>Use natural textures, soft light and balanced colors for a welcoming room.</p><a href="#" style="color:var(--green);font-weight:700">Read article →</a></div></article></div></div></div></section>
+<section class="newsletter">
+<div class="container text-center">
+<h2 class="text-dark fw-bold">Get furniture inspiration</h2>
+<p>Join our newsletter for new collections, offers and home ideas.</p>
+<form class="row g-2 justify-content-center mt-4">
+<div class="col-md-5"><input class="form-control" type="email" placeholder="Your email address"></div>
+<div class="col-auto"><button class="btn btn-main" type="button">Subscribe</button></div>
+</form>
+</div>
 </section>
-
-<section class="blog-section page-blog">
-    <div class="container">
-
-        <div class="section-heading">
-            <h2>Recent Blog</h2>
-        </div>
-
-        <div class="blog-grid">
-
-            <article class="blog-card">
-                <a href="#">
-                    <img src="images/post-1.jpg" alt="Modern interior">
-                </a>
-                <h3>First Time Home Owner Ideas</h3>
-                <p>by <strong>Kristin Watson</strong> on <strong>Dec 19, 2021</strong></p>
-            </article>
-
-            <article class="blog-card">
-                <a href="#">
-                    <img src="images/post-2.jpg" alt="Interior design">
-                </a>
-                <h3>How To Keep Your Furniture Clean</h3>
-                <p>by <strong>Robert Fox</strong> on <strong>Dec 15, 2021</strong></p>
-            </article>
-
-            <article class="blog-card">
-                <a href="#">
-                    <img src="images/post-3.jpg" alt="Furniture">
-                </a>
-                <h3>Small Space Furniture Ideas</h3>
-                <p>by <strong>Kristin Watson</strong> on <strong>Dec 12, 2021</strong></p>
-            </article>
-
-            <article class="blog-card">
-                <a href="#">
-                    <img src="images/post-1.jpg" alt="Home furniture">
-                </a>
-                <h3>Ideas For Modern Living Rooms</h3>
-                <p>by <strong>Robert Fox</strong> on <strong>Dec 10, 2021</strong></p>
-            </article>
-
-            <article class="blog-card">
-                <a href="#">
-                    <img src="images/post-2.jpg" alt="Furniture design">
-                </a>
-                <h3>Choosing The Right Sofa</h3>
-                <p>by <strong>Kristin Watson</strong> on <strong>Dec 08, 2021</strong></p>
-            </article>
-
-            <article class="blog-card">
-                <a href="#">
-                    <img src="images/post-3.jpg" alt="Home interior">
-                </a>
-                <h3>Decorating Your Home On A Budget</h3>
-                <p>by <strong>Robert Fox</strong> on <strong>Dec 05, 2021</strong></p>
-            </article>
-
-        </div>
-    </div>
-</section>
-
-<section class="newsletter-section">
-    <div class="container newsletter-grid">
-        <div class="newsletter-title">
-            <i class="fa-regular fa-envelope"></i>
-            <h3>Subscribe to Newsletter</h3>
-        </div>
-
-        <form class="newsletter-form">
-            <input type="text" placeholder="Enter your name">
-            <input type="email" placeholder="Enter your email">
-            <button type="submit">
-                <i class="fa-solid fa-paper-plane"></i>
-            </button>
-        </form>
-
-        <div class="newsletter-image">
-            <img src="images/sofa.png" alt="Sofa">
-        </div>
-    </div>
-</section>
-
-<footer class="site-footer">
-    <div class="container footer-grid">
-
-        <div class="footer-brand">
-            <a href="index.html" class="footer-logo">Furni.</a>
-            <p>
-                Donec vitae odio quis nisl dapibus malesuada.
-                Nullam ac aliquet velit. Aliquam vulputate velit
-                imperdiet dolor tempor tristique.
-            </p>
-
-            <div class="social-links">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-        </div>
-
-        <div class="footer-column">
-            <a href="about.html">About us</a>
-            <a href="services.html">Services</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact us</a>
-        </div>
-
-        <div class="footer-column">
-            <a href="shop.html">Support</a>
-            <a href="shop.html">Knowledge base</a>
-            <a href="shop.html">Live chat</a>
-        </div>
-
-        <div class="footer-column">
-            <a href="shop.html">Jobs</a>
-            <a href="blog.html">Our team</a>
-            <a href="contact.html">Leadership</a>
-            <a href="contact.html">Privacy Policy</a>
-        </div>
-
-        <div class="footer-column">
-            <a href="shop.html">Nordic Chair</a>
-            <a href="shop.html">Kruzo Aero</a>
-            <a href="shop.html">Ergonomic Chair</a>
-        </div>
-
-    </div>
-
-    <div class="container footer-bottom">
-        <p>Copyright © 2026. All Rights Reserved.</p>
-        <div>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Privacy Policy</a>
-        </div>
-    </div>
+<footer>
+<div class="container">
+<div class="row g-4">
+<div class="col-lg-4"><h5>FURNI</h5><p>Modern furniture designed to make everyday living feel better.</p></div>
+<div class="col-6 col-lg-2"><h5>Shop</h5><a href="shop.html">All Products</a><a href="shop.html">Sofas</a><a href="shop.html">Chairs</a><a href="shop.html">Tables</a></div>
+<div class="col-6 col-lg-2"><h5>Company</h5><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+<div class="col-lg-4"><h5>Contact</h5><p><i class="fa-solid fa-envelope me-2"></i>hello@furni.com</p><p><i class="fa-solid fa-phone me-2"></i>+91 98765 43210</p></div>
+</div>
+<hr class="mt-5 border-secondary">
+<p class="text-center mb-0">© 2026 FURNI. All rights reserved.</p>
+</div>
 </footer>
-
-</body>
-</html>
+</body></html>
