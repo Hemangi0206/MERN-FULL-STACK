@@ -77,12 +77,47 @@ console.log("we are learning javascript",i+1);
 i++;
 }
 
-var i=0;
-do{
-    console.log("we are learning javascript",i+1);
+;do{
+    console.log("we are ");
     i++;
 }
 while(i<=5)
 
 
 
+
+
+console.log(1.);
+
+console.log("3.mini statement");
+console.log("4.pin change");
+
+console.log("5.deposit cash");
+console.log("6.exit");
+
+
+let choice=1;
+switch(choice)
+{
+    case 1:{
+        console.log("checking your balance");
+    }
+    case 2:{
+        console.log("please find your transaction");
+    }
+    case 3:{
+        console.log("enter your name");
+    }
+    case 4:{
+        console.log("put your cash into machine");
+    }
+    case 5:{
+        console.log("enter your pin");
+    }
+    case 5:{
+        console.log("thankyou for");
+    }
+    default:{
+        console.log("wrong balance");
+    }
+}
