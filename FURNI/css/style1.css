@@ -3724,3 +3724,422 @@ body {
     }
 }
 
+
+body {
+    color: #1d2925;
+    background: #ffffff;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.97);
+    border-bottom: 1px solid #e2e9e3;
+}
+
+.navbar-brand {
+    color: #2f5d50 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #d5a83f !important;
+}
+
+.nav-link {
+    color: #34413d !important;
+}
+
+.nav-link::after {
+    background: #d5a83f !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #2f5d50 !important;
+}
+
+.icon-link:hover {
+    background: #e7eee9;
+    color: #2f5d50;
+    transform: translateY(-3px);
+}
+
+.eyebrow,
+.section-title,
+.category-content h5,
+.product-card h5,
+.blog-card h5,
+.blog-page-content h3,
+.highlight-product h5,
+.feature-box h5,
+.contact-info-item h6,
+.footer h5 {
+    color: #2f5d50;
+}
+
+.text-link,
+.blog-category,
+.blog-meta i,
+.interior-list i {
+    color: #2f5d50;
+}
+
+.text-link:hover,
+.blog-category:hover {
+    color: #d5a83f;
+}
+
+.page-hero:not(.home-hero) {
+    background: linear-gradient(135deg, #23483e 0%, #2f5d50 55%, #648775 100%);
+    color: #ffffff;
+}
+
+.page-hero:not(.home-hero) .section-title,
+.page-hero:not(.home-hero) h1,
+.page-hero:not(.home-hero) p,
+.page-hero:not(.home-hero) .eyebrow {
+    color: #ffffff;
+}
+
+.services-hero {
+    background: linear-gradient(135deg, #f5f1e8 0%, #e7eee9 100%);
+}
+
+.services-hero h1 span {
+    color: #2f5d50;
+}
+
+.btn-furni,
+.product-action a,
+.product-add,
+.badge-new {
+    background: #2f5d50;
+    border-color: #2f5d50;
+    color: #ffffff;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-furni:hover,
+.product-action a:hover,
+.product-add:hover {
+    background: linear-gradient(135deg, #23483e, #648775);
+    border-color: #23483e;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(47, 93, 80, 0.2);
+}
+
+.btn-outline-furni {
+    border-color: #2f5d50;
+    color: #2f5d50;
+    transition: 0.3s ease;
+}
+
+.btn-outline-furni:hover {
+    background: #2f5d50;
+    border-color: #2f5d50;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.feature-box,
+.quote-card,
+.product-card,
+.blog-card,
+.blog-page-card,
+.service-card,
+.process-card,
+.highlight-product {
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.feature-box:hover,
+.quote-card:hover,
+.product-card:hover,
+.blog-card:hover,
+.blog-page-card:hover,
+.service-card:hover,
+.process-card:hover,
+.highlight-product:hover {
+    border-color: #cbd9ce;
+    box-shadow: 0 18px 42px rgba(35, 72, 62, 0.12);
+    transform: translateY(-6px);
+}
+
+.product-image img,
+.blog-card > img,
+.blog-page-image img,
+.image-stack img,
+.home-image-frame img,
+.interior-images img,
+.services-hero-image,
+.services-why-image {
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.blog-card:hover > img,
+.blog-page-card:hover .blog-page-image img {
+    transform: scale(1.05);
+}
+
+.product-card:hover .product-image img {
+    transform: translateY(-5px) scale(1.04);
+}
+
+.image-stack img:hover,
+.home-image-frame img:hover,
+.interior-images img:hover,
+.services-hero-image:hover,
+.services-why-image:hover {
+    filter: saturate(1.08);
+}
+
+.service-icon,
+.contact-icon,
+.map-pin,
+.service-card-icon,
+.process-icon {
+    background: #e7eee9;
+    color: #2f5d50;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.feature-box:hover .service-icon,
+.service-card:hover .service-card-icon {
+    background: linear-gradient(135deg, #2f5d50, #648775);
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.story-box,
+.collection,
+.cart-summary {
+    background: linear-gradient(135deg, #f5f1e8, #e7eee9);
+}
+
+.story-box p,
+.feature-box p,
+.blog-content p,
+.blog-page-content p,
+.contact-intro,
+.contact-info-item p,
+.contact-form-box > p,
+.services-hero p {
+    color: #6d7772;
+}
+
+.stack-dots,
+.home-image-dots {
+    background-image: radial-gradient(#2f5d50 1.5px, transparent 1.5px);
+}
+
+.form-control:focus,
+.form-select:focus,
+.contact-form .form-control:focus {
+    border-color: #2f5d50;
+    box-shadow: 0 0 0 0.2rem rgba(47, 93, 80, 0.14);
+}
+
+.form-control,
+.form-select,
+.contact-form .form-control {
+    border-color: #dfe6e0;
+    color: #1d2925;
+}
+
+.newsletter {
+    background: linear-gradient(120deg, #23483e, #2f5d50 65%, #648775);
+}
+
+.newsletter .eyebrow {
+    color: #f2d77c;
+}
+
+.newsletter-form .btn {
+    background: #f2c94c;
+    border-color: #f2c94c;
+    color: #1d2925;
+    transition: 0.3s ease;
+}
+
+.newsletter-form .btn:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #2f5d50;
+    transform: translateY(-2px);
+}
+
+.footer {
+    background: #18221f;
+    color: #cbd3cf;
+}
+
+.footer a {
+    color: #b9c4bf;
+}
+
+.footer a:hover {
+    color: #f2d77c;
+}
+
+.footer-brand,
+.footer h5 {
+    color: #ffffff;
+}
+
+.social-links a:hover {
+    background: #2f5d50;
+    border-color: #2f5d50;
+    color: #ffffff;
+}
+
+.contact-details-card {
+    background: linear-gradient(145deg, #2f5d50, #23483e 60%, #182f29);
+}
+
+.contact-direction-btn {
+    background: #f2c94c;
+    color: #1d2925;
+}
+
+.contact-direction-btn:hover {
+    background: #ffffff;
+    color: #2f5d50;
+}
+
+.services-cta {
+    background: linear-gradient(135deg, #2f5d50, #23483e 65%, #182f29);
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .page-hero:not(.home-hero) {
+        padding: 55px 0;
+    }
+
+    .feature-box:hover,
+    .quote-card:hover,
+    .product-card:hover,
+    .blog-card:hover,
+    .blog-page-card:hover,
+    .service-card:hover,
+    .process-card:hover,
+    .highlight-product:hover {
+        transform: translateY(-3px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
+
+
+.services-hero {
+    background: linear-gradient(135deg, #23483e 0%, #2f5d50 55%, #648775 100%);
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.services-hero h1,
+.services-hero h2,
+.services-hero h3,
+.services-hero p,
+.services-hero .eyebrow {
+    color: #ffffff;
+}
+
+.services-hero h1 {
+    font-weight: 700;
+}
+
+.services-hero p {
+    opacity: 0.9;
+    line-height: 1.8;
+}
+
+.services-hero h1 span {
+    color: #f2c94c;
+}
+
+.services-hero-image,
+.services-why-image {
+    border-radius: 18px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.services-hero-image:hover,
+.services-why-image:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.15);
+}
+
+.service-card,
+.process-card {
+    background: #ffffff;
+    border: 1px solid #e5e8e5;
+    border-radius: 16px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.service-card:hover,
+.process-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 42px rgba(35, 72, 62, 0.12);
+}
+
+.service-card-icon,
+.process-icon {
+    background: #e7eee9;
+    color: #2f5d50;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.service-card:hover .service-card-icon,
+.process-card:hover .process-icon {
+    background: #2f5d50;
+    color: #ffffff;
+}
+
+.services-cta {
+    background: linear-gradient(135deg, #23483e, #2f5d50 65%, #648775);
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.services-cta h2,
+.services-cta h3,
+.services-cta p {
+    color: #ffffff;
+}
+
+.services-cta .btn {
+    background: #f2c94c;
+    border-color: #f2c94c;
+    color: #1d2925;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.services-cta .btn:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 767px) {
+    .services-hero {
+        padding: 55px 0;
+    }
+
+    .service-card:hover,
+    .process-card:hover {
+        transform: translateY(-3px);
+    }
+}

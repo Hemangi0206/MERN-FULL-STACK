@@ -1,0 +1,1 @@
+Local image assets included so the supplied HTML pages do not show broken image placeholders. Some product thumbnails are cropped from the provided Furni visual concept image. Replace them with original product photos if available.
