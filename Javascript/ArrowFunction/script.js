@@ -1,6 +1,6 @@
 //arrow functtion
 
-()=> {
+/*()=> {
     console.log("this is an arrow function");
 };
 console.log(() => {
@@ -17,5 +17,16 @@ const a = () =>{
 console.log(a)
 
 //callback function
+const greet = name => {
+    console.log("Hello " + name);
+};
+
+greet("Priya");
+
+*/
+
+
+//higher order function
+
 
 
