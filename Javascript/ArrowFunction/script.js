@@ -1,6 +1,6 @@
 //arrow functtion
 
-/*()=> {
+()=> {
     console.log("this is an arrow function");
 };
 console.log(() => {
@@ -23,7 +23,7 @@ const greet = name => {
 
 greet("Priya");
 
-*/
+
 
 
 //higher order function
