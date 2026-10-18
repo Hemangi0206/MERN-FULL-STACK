@@ -29,6 +29,4 @@ const data = [2, 5, 8, 11, 14, 7, 1, 3, 9, 12, 17, 15];
 
 const sum = data.reduce((sum = 0, item) => (sum += item));
 
-console.log(sum);
-
 
