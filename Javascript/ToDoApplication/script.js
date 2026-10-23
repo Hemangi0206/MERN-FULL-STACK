@@ -23,6 +23,7 @@ function addTask() {
   BUTTON.textContent = "Delete";
   BUTTON.onclick = () => LI.remove();
 
+  
   LI.appendChild(SPAN);
   LI.appendChild(BUTTON1);
   LI.appendChild(BUTTON);
