@@ -1,8 +1,182 @@
-#content{
-    width: 150px;
-    height: 50px;
-    border:3px solid black;
-    align-items: center;
+:root {
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+  color: #202534;
+  background: #f4f6fb;
+}
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+}
+
+.page {
+  width: min(900px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.page-header {
+  margin-bottom: 28px;
+}
+
+.page-header h1 {
+  margin: 4px 0 8px;
+  font-size: 2.4rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #5364c7;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.demo {
+  margin: 18px 0;
+  padding: 22px;
+  border: 1px solid #e0e4ef;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 3px 12px rgb(32 37 52 / 5%);
+}
+
+.demo h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+button,
+input {
+  min-height: 42px;
+  padding: 9px 12px;
+  border: 1px solid #cbd1df;
+  border-radius: 7px;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: #fff;
+  border-color: #5364c7;
+  background: #5364c7;
+}
+
+button:hover {
+  background: #3f50b0;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #aab4ff;
+  outline-offset: 2px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+}
+
+input {
+  color: inherit;
+  background: #fff;
+}
+
+input.focused {
+  border-color: #5364c7;
+  box-shadow: 0 0 0 3px rgb(83 100 199 / 15%);
+}
+
+.event-box {
+  min-width: 150px;
+  min-height: 72px;
+}
+
+.event-box.selected {
+  color: #303c8c;
+  border-color: #aab4ff;
+  background: #e9ecff;
+}
+
+.message {
+  min-height: 1.4em;
+  margin-bottom: 0;
+  color: #303c8c;
+}
+
+.hint {
+  color: #687086;
+  font-size: 0.9rem;
+}
+
+#LoginForm {
+  display: grid;
+  justify-items: start;
+  max-width: 340px;
+}
+
+#LoginForm input {
+  width: 100%;
+}
+
+.event-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  border: 2px dashed #aab4ff;
+  border-radius: 8px;
+  background: #f7f8ff;
+}
+
+.task-list {
+  display: grid;
+  gap: 8px;
+  padding-left: 22px;
+}
+
+.task-list button {
+  color: #303c8c;
+  border-color: #d4d9ea;
+  background: #f7f8ff;
+}
+
+.task-list button.completed {
+  color: #53616a;
+  text-decoration: line-through;
+  background: #edf6ef;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+@media (max-width: 520px) {
+  .page {
+    width: min(100% - 20px, 900px);
+    padding: 24px 0;
+  }
+
+  .demo {
+    padding: 16px;
+  }
 }

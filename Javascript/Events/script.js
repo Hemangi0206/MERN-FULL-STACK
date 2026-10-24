@@ -21,6 +21,8 @@ document.getElementById("box2").addEventListener("mouseout", () => {
 
 document.getElementById("nameSubmit").addEventListener("click", () => {
   console.log(document.getElementById("fullName").value.trim());
+
+  
 });
 
 document.getElementById("fullName").addEventListener("keydown", (e) => {
