@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JavaScript Assignments</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>JavaScript Assignments</h1>
+
+    <h2>1. preventDefault()</h2>
+
+    <h3>Task 1: Course Links</h3>
+    <a href="https://google.com" id="link">Resource 1</a>
+    <br />
+    <a href="https://wikipedia.org">Resource 2</a>
+    <br />
+    <a href="https://developer.mozilla.org">Resource 3</a>
+
+    <h3>Task 2: Student Registration</h3>
+    <form id="form">
+      <input type="text" id="name" placeholder="Enter name" />
+      <button>Register</button>
+    </form>
+    <p id="msg"></p>
+
+    <hr />
+    <hr />
+
+    <h2>2. Event Delegation</h2>
+
+    <h3>Task 1: Student List</h3>
+    <ul id="students">
+      <li>Priya</li>
+      <li>Rahul</li>
+      <li>Amit</li>
+    </ul>
+    <p id="studentMsg"></p>
+
+    <h3>Task 2: Task Manager</h3>
+    <ul id="tasks">
+      <li>Learn HTML</li>
+      <li>Learn JavaScript</li>
+    </ul>
+    <button id="add">Add Task</button>
+    <p id="taskMsg"></p>
+
+    <hr />
+    <hr />
+
+    <h2>3. Event Capturing</h2>
+
+    <h3>Task 1: Capturing Demo</h3>
+    <div id="grand">
+      Grandparent
+      <div id="parent">
+        Parent
+        <button id="child">Click Me</button>
+      </div>
+    </div>
+
+    <h3>Task 2: Capturing and Bubbling</h3>
+    <button id="capture">Capturing</button>
+    <button id="bubble">Bubbling</button>
+    <p id="order"></p>
+
+    <hr />
+    <hr />
+
+    <h2>4. Event Bubbling</h2>
+
+    <h3>Task 1: Course Panel</h3>
+    <div id="box1">
+      Grandparent
+      <div id="box2">
+        Parent
+        <button id="box3">Click Me</button>
+      </div>
+    </div>
+
+    <h3>Task 2: Stop Propagation</h3>
+    <div id="outer">
+      Parent
+      <button id="inner">Click Me</button>
+    </div>
+
+    <hr />
+    <hr />
+
+    <h2>5. removeEventListener()</h2>
+
+    <h3>Task 1: Notifications</h3>
+    <button id="show">Show Notification</button>
+    <button id="stop">Stop Notification</button>
+    <p id="notification"></p>
+
+    <h3>Task 2: Course Message</h3>
+    <button id="course">Show Message</button>
+    <button id="disable">Disable Message</button>
+    <p id="courseMsg"></p>
+
+    <hr />
+    <hr />
+
+    <h2>6. addEventListener()</h2>
+
+    <h3>Task 1: Student Dashboard</h3>
+    <button id="profile">Profile</button>
+    <button id="details">Course</button>
+    <button id="attendance">Attendance</button>
+    <p id="dashboard"></p>
+
+    <h3>Task 2: Course Offer</h3>
+    <button id="offer">Claim Offer</button>
+    <button id="complete">Complete Tasks</button>
+    <p id="offerMsg"></p>
+    <p id="doneMsg"></p>
+    <hr />
+    <hr />
+    <script src="script.js"></script>
+  </body>
+</html>
