@@ -80,3 +80,40 @@ console.log(first.concat(" ", second));
 
 console.log("Hi ".repeat(3));
 console.log("*".repeat(5));
+
+//split case
+const subjects = "HTML,JavaScript,React";
+console.log(subjects.split(","));
+
+
+const sentence = "JavaScript is useful";
+console.log(sentence.split(" "));
+
+
+const word = "CODE";
+console.log(word.split(""));
+
+
+console.log("HTML CSS JS".split());// the entire string is returned as one element in an array.
+
+//number method
+const value = 10;
+
+console.log(value.toString(2));
+console.log(value.toString(8));
+console.log(value.toString(16));
+
+const amount = 1234567.89;
+
+console.log(amount.toLocaleString("en-US"));
+console.log(amount.toLocaleString("de-DE"));
+console.log(amount.toLocaleString("en-IN"));
+
+const amount1 = 1234.5;
+
+console.log(
+  amount.toLocaleString("en-IN", {
+    style: "currency",
+    currency: "INR"
+  })
+);
