@@ -21,6 +21,7 @@ console.log(arrayMethodChanning);
 
 const res = numbers.filter((number) => number <= 5).includes(4);
 
+
 console.log(res);
 
 const data = [2, 5, 8, 11, 14, 7, 1, 3, 9, 12, 17, 15];
