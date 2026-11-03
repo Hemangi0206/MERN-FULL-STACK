@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage and Session Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>JavaScript Storage</h1>
+
+        <input type="text" id="userName" placeholder="Enter your name">
+
+        <div class="buttons">
+            <button onclick="saveLocal()">Save Local Storage</button>
+            <button onclick="getLocal()">Get Local Storage</button>
+            <button onclick="removeLocal()">Remove Local Storage</button>
+        </div>
+
+        <div class="buttons">
+            <button onclick="saveSession()">Save Session Storage</button>
+            <button onclick="getSession()">Get Session Storage</button>
+            <button onclick="removeSession()">Remove Session Storage</button>
+        </div>
+
+        <h3 id="result">Your result will appear here</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
