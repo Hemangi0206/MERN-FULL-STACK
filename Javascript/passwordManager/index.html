@@ -41,28 +41,45 @@
           />
         </div>
       </div>
-      <div class="d-flex gap-3 w-100">
+      <div class="d-flex gap-3 w-100 mt-3">
         <div class="w-100">
           <label for="password">Password</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            class="form-control"
-          />
+          <div class="input-group">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form-control"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              onclick="TogglePassword('password', 'passwordIcon')"
+            >
+              <i class="bi bi-eye" id="passwordIcon"></i>
+            </button>
+          </div>
         </div>
         <div class="w-100">
           <label for="cfPassword">Confirm Password</label>
-          <input
-            type="password"
-            name="cfPassword"
-            id="cfPassword"
-            class="form-control"
-          />
+          <div class="input-group">
+            <input
+              type="password"
+              name="cfPassword"
+              id="cfPassword"
+              class="form-control"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              onclick="TogglePassword('cfPassword', 'cfPasswordIcon')"
+            >
+              <i class="bi bi-eye" id="cfPasswordIcon"></i>
+            </button>
+          </div>
         </div>
       </div>
       <div class="mt-2 d-flex justify-content-between">
-        <button class="btn btn-secondary">Clear form</button>
         <button class="btn btn-secondary" onclick="ClearForm()">
           Clear form
         </button>
@@ -81,6 +98,7 @@
             <th>UserName</th>
             <th>Password</th>
             <th>Action</th>
+
           </tr>
         </thead>
         <tbody class="text-center" id="dataTable">
