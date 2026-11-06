@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Student Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Name Storage</h1>
+
+    <input type="text" id="studentName" placeholder="Enter student name">
+
+    <button onclick="saveLocal()">Save Local</button>
+    <button onclick="saveSession()">Save Session</button>
+
+    <h3>Local Storage</h3>
+    <p id="localData">No data saved</p>
+
+    <button onclick="removeLocal()">Remove Local Data</button>
+
+    <h3>Session Storage</h3>
+    <p id="sessionData">No data saved</p>
+
+    <button onclick="removeSession()">Remove Session Data</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
